@@ -2,13 +2,11 @@
 :root {
             background-color: rgb(135, 206, 235);
         }
-        /* First Paragraph */
         p:first-child {
             background-color: black;
             color: white;
         }
 
-        /* Third Paragraph */
         p:last-child {
             color: red;
         }
@@ -23,13 +21,11 @@
             background-color: white;
         }
 
-        /* First and Last List Items */
         li:first-child,
         li:last-child {
             font-size: 22px;
         }
 
-        /* Third-to-Last List Item */
         li:nth-last-child(3) {
             background-color: pink;
         }
