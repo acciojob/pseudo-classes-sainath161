@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+:root {
+            background-color: rgb(135, 206, 235);
+        }
+        /* First Paragraph */
+        p:first-child {
+            background-color: black;
+            color: white;
+        }
+
+        /* Third Paragraph */
+        p:last-child {
+            color: red;
+        }
+
+        li {
+            width: 50%;
+            padding: 10px;
+            background-color: gray;
+        }
+
+        li:nth-child(odd) {
+            background-color: white;
+        }
+
+        /* First and Last List Items */
+        li:first-child,
+        li:last-child {
+            font-size: 22px;
+        }
+
+        /* Third-to-Last List Item */
+        li:nth-last-child(3) {
+            background-color: pink;
+        }
